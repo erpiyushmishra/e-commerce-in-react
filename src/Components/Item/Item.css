@@ -1,0 +1,28 @@
+.item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:300px;
+}
+.item img{
+    width:90%;
+    
+}
+.item .item-name{
+    font-weight:200;
+    font-size:14px
+}
+.item-price{
+    display:flex;
+    gap:20px;
+    margin-top:-25px;
+}
+.item-price .old-price{
+    text-decoration: line-through;
+    font-weight:200;
+    font-size:15px;
+}
+.item-price .new-price{
+    font-weight:600;
+    font-size:15px;
+}

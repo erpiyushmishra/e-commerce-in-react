@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+.loginsignup{
+    height:90vh;
+    width:100vw;
+    background-color:pink;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+}
+.loginsignup-container{
+    height:90%;
+    width:40%;
+    background:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:20px;
+    padding-bottom:80px;
+    
+    
+}
+.loginsignup-container input{
+    width:80%;
+    height:50px;
+    margin-bottom:20px;
+    padding-left:10px;
+    outline:none;
+
+}
+
+
+.loginsignup-container button{
+    width:83%;
+    height:60px;
+    background:tomato;
+    color: white;
+    border: none;
+    outline: none;
+    font-size:max(1.5vw,14px);
+    margin-top:20px;
+}
+.loginsignup-footer{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    width: 80%;
+    margin-bottom:-50px;
+
+}
+.loginsignup-footer span{
+    color:darkblue;
+    cursor: pointer;
+
+}
+.loginsignup-footer-checkbox{
+    display:flex;
+    gap:10px;
+    margin-top:-25px;
+}
+.loginsignup-footer-checkbox input{
+    width:max(1vw, 10px)
+}
+

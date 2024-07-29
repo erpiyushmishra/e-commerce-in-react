@@ -1,0 +1,33 @@
+.shopcategory{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:90vw;
+    margin:20px auto;
+}
+.shopcategory-banner img{
+    width:100%;
+    overflow:hidden;
+}
+.shopcategory-sorting{
+    width:100%;
+    height:10vh;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.shopcategory-sorting-left span{
+    font-weight:600;
+    margin-right:5px;
+
+}
+.shopcategory-sorting-right #sizes{
+    margin-left:10px;
+
+}
+.shopcategory-products{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
